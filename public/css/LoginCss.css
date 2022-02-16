@@ -1,0 +1,64 @@
+body{
+	background:linear-gradient(-90deg, #6158AB,#1C1A2D);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box_login{
+	width: 450px;
+	height: 400px;
+	background-color: #CAC9D3;
+	border-radius: 25px;
+	border: 0;
+}
+
+.inputusuario{
+	padding: 15px 30px;
+	border-radius: 25px;
+	border: 1px;
+	margin: 0px 110px;
+	margin-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+	outline: none;
+}
+
+.inputsenha{
+	padding: 15px 30px;
+	border-radius: 25px;
+	border: 1px;
+	margin: 0px 110px;
+	font-family: 'Montserrat', sans-serif;
+	outline: none;
+}
+
+
+
+.buttonlogin{
+	padding: 15px 30px;
+	border-radius: 25px;
+	border: none;
+	margin: 0px 170px;
+	color: white;
+ 	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+  	font-weight: 700;
+ 	background:linear-gradient(-90deg, #746EAF, #6158AB );
+ 	opacity: 0.90;
+  	transition: 0.3s;
+ 
+}
+
+.buttonlogin:hover {
+	opacity: 1
+}
+
+.imagemlogin{
+margin: 0px 145px;
+
+}
+
+
+
+

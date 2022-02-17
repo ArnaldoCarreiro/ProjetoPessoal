@@ -15,7 +15,7 @@
 	<form action="./VerificaLogin" method="POST">
 
 		<div class="imagemlogin">
-		<img  src="http://localhost/login/imagens/barra_login1.png">
+		<img  src="http://localhost/ProjetoPessoal/public/imagens/barra_login1.png">
 		</div>
 
 	

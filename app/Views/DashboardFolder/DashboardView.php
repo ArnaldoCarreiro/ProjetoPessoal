@@ -34,20 +34,32 @@
 
     <div class="main">
       <div class="topbar">
-        <div class="toggle"></div>
+        <div class="toggle" onclick="toggleMenu();" ></div> 
           <div class="search">
             <label>
               <input type="text" placeholder="Search here">
+              <i class="fa fa-magnifying-glass"></i>
             </label>
           </div>
           <div class="user">
-              <img src="http://localhost/login/imagens/user.jpg">
-            </div>
+              <img src="http://localhost/ProjetoPessoal/public/imagens/user.jpg">
+          </div>
       </div>
     </div>
 
 
 
-        
+
+  <script>
+    function toggleMenu(){
+      let toggle = document.querySelector('.toggle');
+      let navigation = document.querySelector('.navigation');
+      let main = document.querySelector('.main');
+      toggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+      main.classList.toggle('active');
+    }
+  </script>
+
   </body>
 </html>

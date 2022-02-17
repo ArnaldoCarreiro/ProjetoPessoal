@@ -39,7 +39,7 @@ class Login extends BaseController
         $_SESSION['senha'] = $senha;
 
 
-        return redirect()->to(base_url() . '/admin/adminindex');
+        return redirect()->to(base_url() . '/Dashboard/indexdashboard');
 
         }
 

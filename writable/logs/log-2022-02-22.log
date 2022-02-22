@@ -1,0 +1,39 @@
+CRITICAL - 2022-02-22 12:49:16 --> Invalid file: DashboardHeader.php
+#0 C:\xampp\htdocs\ProjetoPessoal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DashboardHeader...')
+#1 C:\xampp\htdocs\ProjetoPessoal\system\View\View.php(226): CodeIgniter\View\View->render('DashboardHeader', Array, true)
+#2 C:\xampp\htdocs\ProjetoPessoal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardFolder...', Array, true)
+#3 C:\xampp\htdocs\ProjetoPessoal\app\Controllers\Dashboard.php(18): view('DashboardFolder...')
+#4 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(825): App\Controllers\Dashboard->CadastroUsuario()
+#5 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjetoPessoal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-22 12:49:46 --> Invalid file: DashboardHeader.php
+#0 C:\xampp\htdocs\ProjetoPessoal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DashboardHeader...')
+#1 C:\xampp\htdocs\ProjetoPessoal\system\View\View.php(226): CodeIgniter\View\View->render('DashboardHeader...', Array, true)
+#2 C:\xampp\htdocs\ProjetoPessoal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardFolder...', Array, true)
+#3 C:\xampp\htdocs\ProjetoPessoal\app\Controllers\Dashboard.php(18): view('DashboardFolder...')
+#4 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(825): App\Controllers\Dashboard->CadastroUsuario()
+#5 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjetoPessoal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-22 13:18:13 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\ProjetoPessoal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Dashboard/Cadas...')
+#1 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Dashboard/Cadas...')
+#2 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProjetoPessoal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:23:10 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\ProjetoPessoal\app\Views\DashboardFolder\DashboardHeader.php(1): session_start()
+#2 C:\xampp\htdocs\ProjetoPessoal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ProjetoPessoal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ProjetoPessoal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardFolder...', Array, true)
+#5 C:\xampp\htdocs\ProjetoPessoal\app\Controllers\Dashboard.php(18): view('DashboardFolder...')
+#6 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(825): App\Controllers\Dashboard->CadastroUsuario()
+#7 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\ProjetoPessoal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProjetoPessoal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

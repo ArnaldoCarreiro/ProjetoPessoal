@@ -1,3 +1,11 @@
+<?php  session_start();
+    if(!isset($_SESSION['usuario'])){
+      echo "<script> alert('POR FAVOR REALIZAR LOGIN'); window.location.href='../Login/indexlogin'; </script>";
+        exit;
+    }
+?>
+
+
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
@@ -17,13 +25,13 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="<?= base_url() . "/Dashboard/CadastroUsuario" ?>">
             <span class="icon"><i class="fa-solid fa-user"></i></span>
             <span class="title">Cadastrar Usuario</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="<?= base_url() . "/Logout/indexlogout" ?>">
             <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
             <span class="title">Deslogar</span>
             </a>
@@ -60,6 +68,8 @@
       main.classList.toggle('active');
     }
   </script>
+
+
 
   </body>
 </html>

@@ -7,11 +7,17 @@ class Dashboard extends BaseController
 	public function indexdashboard()
 	{
 
-		echo view ('DashboardFolder/DashboardView');
+		echo view ('DashboardFolder/DashboardHeader');
 
 	}
 
 
+public function CadastroUsuario()
+	{
+		echo view ('DashboardFolder/DashboardPages/DashboardCadastroUsuario');
+		
+
+	}
 
 	
 
